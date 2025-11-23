@@ -1,6 +1,7 @@
 import datetime
 import random
 import time 
+import heapq
 class ScheduleError(Exception):
     """Custom exception for scheduling errors (e.g., impossible dependency)."""
     pass
